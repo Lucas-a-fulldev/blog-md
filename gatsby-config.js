@@ -10,6 +10,13 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: __dirname + '/src/authors',
+        name: 'authors'
+      }
+    },
+    {
     resolve: 'gatsby-transformer-remark',
     options: {
       plugins:[
