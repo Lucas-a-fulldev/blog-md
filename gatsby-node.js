@@ -21,8 +21,8 @@ exports.onCreateNode = ({ node, getNode, actions  })  => {
 exports.createPages =  async ({ graphql,  actions }) => {
   const { createPage } = actions
   
-  const posts = await graphql (`
-  query  {
+  const posts = await graphql(`
+  query {
     posts: allMarkdownRemark (
       filter: {fields: { collection: {eq: "pages"} } }
     ) {
