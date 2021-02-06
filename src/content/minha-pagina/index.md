@@ -1,6 +1,6 @@
 ---
 path: /blog/minha-pagina
-title: Título alteado pelo NetlifyCms
+title: Título alterado pelo NetlifyCms
 description: Bem vindo a minha página.
 categoria: teste
 price: 11
